@@ -48,13 +48,8 @@ A typical configuration used in this project:
 
 ## 🚀 How It Works
 
- - Sensors → I2C Bus → FPGA
-    FPGA reads sensor outputs using custom I2C drivers.
+ - Sensors → I2C Bus → FPGA : FPGA reads sensor outputs using custom I2C drivers.
 
- - MLP Inference
-    Inputs fed into the MLP core./n
-    Hidden layer does computation and activations./n
-    Outputs represent classification.
+ - MLP Inference : Inputs fed into the MLP core. Hidden layer does computation and activations. Output layer represent classification.
 
- - Environment Classification
-    Highest-score neuron determines the environmental state.
+ - Environment Classification : Highest-score neuron determines the environmental state.
