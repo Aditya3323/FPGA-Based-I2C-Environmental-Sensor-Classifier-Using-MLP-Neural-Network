@@ -52,9 +52,9 @@ A typical configuration used in this project:
     FPGA reads sensor outputs using custom I2C drivers.
 
  - MLP Inference
-    Inputs fed into the MLP core.
-    Parallel MAC units compute activations.
-    Outputs represent classification scores.
+    Inputs fed into the MLP core./n
+    Hidden layer does computation and activations./n
+    Outputs represent classification.
 
  - Environment Classification
     Highest-score neuron determines the environmental state.
